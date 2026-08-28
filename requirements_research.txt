@@ -1,0 +1,17 @@
+torch==1.13.1+cu116
+torchvision==0.14.1+cu116
+torchaudio==0.13.1+cu116
+numpy==1.26.4
+opencv-python==4.11.0.86
+pillow
+matplotlib
+pandas
+scipy
+scikit-image
+tqdm
+seaborn
+flask
+werkzeug
+python-docx
+PyMuPDF
+pypdf

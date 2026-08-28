@@ -1,0 +1,56 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Model weights and pretrained checkpoints
+*.pth
+*.pt
+*.ckpt
+model_data/
+**/model_data/
+
+# Datasets and large media
+VOCdevkit/
+resources/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.mp4
+*.avi
+*.mov
+
+# Training outputs and generated results
+logs/
+**/logs/
+miou_out*/
+**/miou_out*/
+openeds_predictions/
+**/openeds_predictions/
+visualize_results/
+**/visualize_results/
+video_predictions/
+**/video_predictions/
+video_prediction_own/
+**/video_prediction_own/
+video_diameter_analysis*/
+**/video_diameter_analysis*/
+video_diameter_results*/
+**/video_diameter_results*/
+pupil_params_results/
+**/pupil_params_results/
+
+# Temporary / local artifacts
+*.zip
+*.rar
+*.7z
+*.tmp
+*.log
+_paper_text.txt
+_pensato_2025_text.txt

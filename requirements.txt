@@ -1,0 +1,27 @@
+--extra-index-url https://download.pytorch.org/whl/cu116
+
+# Core deep learning stack
+torch==1.13.1+cu116
+torchvision==0.14.1+cu116
+torchaudio==0.13.1+cu116
+
+# Image processing and numerical computing
+numpy==1.26.4
+opencv-python==4.11.0.86
+Pillow
+tqdm
+scipy
+
+# Evaluation, plotting, and result analysis
+matplotlib
+pandas
+seaborn
+
+# Optional web inference interface
+flask
+werkzeug
+
+# Optional thesis/report tools
+python-docx
+PyMuPDF
+pypdf
